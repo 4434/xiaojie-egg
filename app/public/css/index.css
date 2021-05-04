@@ -1,0 +1,282 @@
+html,body{
+	font-size: 14px;
+	color: #333;
+}
+
+.yk-hide{
+	display: none;
+}
+.main-box{
+	min-height: 839px;
+}
+
+.yk-center-font{
+	text-align: center;
+}
+
+.header-box{
+	min-width: 100%;
+	background: #eee;
+}
+.header-box .header{
+	width: 1140px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	padding: 19px 0;
+}
+.header-box .header a{
+	margin-left: 40px;
+	color: #333;
+	transition: color all 0.5s;
+}
+.header-box .header .logo{
+	width: 100px;
+	height: 42px;
+	cursor: pointer;
+}
+.header-box .header a.active{
+	color: red;
+}
+.header-box .header a:hover{
+	color: red;
+}
+.header-box .header a:first-child{
+	margin-left: 0;
+}
+
+.banner-box{
+	min-width: 1140px;
+}
+
+.banner-box .banner{
+	width: 1140px;
+	height: 380px;
+	margin: 0 auto;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+} 
+.banner-box .banner .img{
+	width: 100%;
+	height: 100%;
+}
+
+.modular-box{
+	min-width: 1140px;
+	padding: 40px 0;
+}
+
+.modular-box .modular{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.modular-box .modular .title{
+	height: 40px;
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.modular-box .modular .title .left {
+	font-size: 24px;
+	color: #333;
+}
+
+.modular-box .modular .title .left i{
+	font-size: 20px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.modular-box .modular .title .left span{
+	vertical-align: middle;	
+}
+
+.modular-box .modular .title .right a{
+
+}
+
+.modular-box .modular .title .right i{
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+.modular-box .modular .box{
+	line-height: 25px;
+	margin-top: 20px;	
+}
+.modular-box .modular .box p{
+	margin-top: 20px;
+}
+
+.modular-box .modular .box .list{
+	display: flex;
+	justify-content: space-between;
+}
+.modular-box .modular .box .list li{
+	width: 360px;
+	text-align: center;
+}
+
+.modular-box .modular .box .list li img{
+	width: 100%;
+}
+
+/* 内页模块 */
+.modular-box .modular1{
+	width: 1140px;
+	margin: 0 auto 40px;
+}
+
+.modular-box .modular1 .title{
+	text-align: center;
+}
+
+.modular-box .modular1 .title h2{
+	font-size: 28px;
+}
+
+.modular-box .modular1 .title h2 span{
+	position: relative;
+}
+
+.modular-box .modular1 .title h2 span:before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 18px;
+	left: -114px;
+	width: 100px;
+	height: 2px;
+	background: #333;
+}
+
+.modular-box .modular1 .title h2 span:after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 18px;
+	right: -114px;
+	width: 100px;
+	height: 2px;
+	background: #333;
+}
+
+.modular-box .modular1 .title p{
+	margin-top: 10px;
+}
+
+.modular-box .modular1 .box{
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.modular-box .modular1 .box p{
+	margin-top: 20px;
+}
+
+.modular-box .modular1 .box .product{
+	display: flex;
+	justify-content: space-between;
+	line-height: 20px;
+}
+
+.modular-box .modular1 .box .product .left{
+	width: 165px;
+}
+
+.modular-box .modular1 .box .product .left .list li{
+	width: 100%;
+	padding: 10px;
+	border: 1px dotted #333;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+.modular-box .modular1 .box .product .left .list li:hover{
+	border: 1px solid red;
+}
+
+.modular-box .modular1 .box .product .left .list li.active{
+	border: 1px solid red;	
+}
+
+.modular-box .modular1 .box .product .right{
+	width: 800px;
+	border-left: 1px solid #000;
+	padding: 20px;
+
+}
+
+.modular-box .modular1 .box .product .right .inner h1{
+	font-size: 22px;
+	font-weight: 700;
+	color: #005BAC;
+}
+
+.modular-box .modular1 .box .product .right .inner h2{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 10px 0;
+}
+
+.modular-box .modular1 .box .product .right .inner p{
+	margin-top: 10px;
+	line-height: 25px;
+}
+
+.img-desc{
+	display: flex;
+	margin: 30px 0;
+}
+
+.img-desc img{
+	width: 250px;
+	margin-right: 30px;
+}
+
+ul.order-list li{
+	line-height: 30px;
+	color: #666;
+	position: relative;
+	padding-left: 20px;
+}
+
+ul.order-list li:before{
+	content: "";
+	display: block;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background: #666;
+	position: absolute;
+	top: 12px;
+	left: 0;
+}
+
+
+.yk-map{
+	width: 100%;
+	height: 400px;
+	margin-top: 10px;
+}
+
+.footer-box{
+	min-width: 1140px;
+	background: #28292B;
+}
+.footer-box .footer{
+	width: 1140px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	color: #ccc;
+}
+
+
+.height-set{
+	min-height: 379px;
+}
