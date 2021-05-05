@@ -206,7 +206,7 @@ html,body{
 .modular-box .modular1 .box .product .right{
 	width: 800px;
 	border-left: 1px solid #000;
-	padding: 20px;
+	padding-left: 20px;
 
 }
 
@@ -237,6 +237,14 @@ html,body{
 	width: 250px;
 	margin-right: 30px;
 	margin-bottom: 20px;
+}
+
+.img-desc img:last-child{
+	margin-right: 0;
+}
+
+.img-desc img.mini{
+	width: 177px;
 }
 
 ul.order-list li{
